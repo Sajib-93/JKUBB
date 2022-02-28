@@ -18,6 +18,9 @@ a {
     text-decoration: none !important;
 }
 
+body{
+    overflow-x: hidden;
+}
 /* =============Common CSS ====================== */
 
 /* ====================== Nav Start================================ */
@@ -231,9 +234,8 @@ a {
 
 /* ====================== Journal Start ================================ */
 
-
 #journal {
-    padding: 60px;
+    padding: 60px 0;
 }
 
 #journal .journal-head {
