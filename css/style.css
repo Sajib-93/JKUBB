@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* =============Common CSS ====================== */
+
+/* ====================== Nav Start================================ */
+.navbar ul li {
+    padding-right: 15px;
+}
+
+.navbar ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff !important;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.navbar ul li a:hover {
+    color: #28B8D8 !important;
+}
+
+/* ====================== Nav End================================ */
+
+/* ====================== Banner Start ================================ */
+
+#banner {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -222;
+}
+
+#banner .text {
+    text-align: center;
+}
+
+#banner .text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#banner .text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#banner .text h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* ====================== Banner End ================================ */
+
+/* ====================== Service Start ================================ */
+#service {
+    margin-top: 550px;
+    margin-bottom: 50px;
+}
+
+#service .service-head {
+    text-align: center;
+}
+
+#service .service-head h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #656565;
+}
+
+#service .service-head h3 {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #949494;
+}
+
+#service .service-head h4 {
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+    margin-top: 50px;
+}
+
+#service .item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #E3E3E3;
+    margin-top: 10px;
+}
+
+#service .item img {
+    width: 100%;
+}
+
+#service .item h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #656565;
+    margin-top: 10px;
+}
+
+#service .item h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #656565;
+}
+
+/* ====================== Service End ================================ */
+
+/* ====================== Insta Start ================================ */
+
+#insta {
+    background: #2C2C2C;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+#insta .insta-head {
+    text-align: center;
+}
+
+#insta .insta-head h2 {
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #D5D5D5;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#insta .insta-head h2::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 420px;
+    width: 120px;
+    height: 1px;
+    background: #D5D5D5;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+#insta .insta-head h2::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 420px;
+    width: 120px;
+    height: 1px;
+    background: #D5D5D5;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+#insta .main {
+    display: flex;
+}
+
+#insta .img {
+    width: 25%;
+}
+
+#insta img {
+    width: 100%;
+}
+
+#insta .button a {
+    padding: 20px 25px;
+    border: 1px solid #D5D5D5;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #D5D5D5;
+    display: inline-block;
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+/* ====================== Insta End ================================ */
+
+/* ====================== Journal Start ================================ */
+
+
+#journal {
+    padding: 60px;
+}
+
+#journal .journal-head {
+    text-align: center;
+}
+
+#journal .journal-head h2 {
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#journal .journal-head h2::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 400px;
+    width: 120px;
+    height: 1px;
+    background: #D9D9D9;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+#journal .journal-head h2::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 400px;
+    width: 120px;
+    height: 1px;
+    background: #D9D9D9;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+
+#journal .item {
+    text-align: center;
+    border: 1px solid #E3E3E3;
+    margin-top: 30px;
+}
+
+#journal .item h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #444444;
+    margin-top: 20px;
+}
+
+#journal .item img {
+    width: 100%;
+}
+
+#journal .item h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #C6C6C6;
+}
+
+#journal .item p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#journal .item .button .button2{
+    width: 50%;
+} 
+#journal .item .button .icon{
+    width: 50%;
+} 
+#journal .item .button {
+    display: flex;
+}
+
+#journal .item .button a {
+    font-family: 'Roboto', serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #A6A6A6;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #28B8D8;
+}
+
+#journal .item .icon {
+    font-family: 'Roboto', serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #A6A6A6;
+}
+
+#journal .item .love {
+    padding-left: 210px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #A6A6A6;
+    padding-top: 4px;
+}
+
+
+/* ====================== Journal End ================================ */
+
+/* ====================== About Start ================================ */
+
+#about {
+    padding-bottom: 50px;
+}
+#about .left-head h2 {
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+    position: relative;
+}
+
+#about .left-head h2::after {
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 1px;
+    background: #D9D9D9;
+    top: 50%;
+    left: 180px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+#about img {
+    width: 100%;
+}
+
+#about .left-head h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 24px;
+}
+
+#about .left-head h4 {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 24px;
+}
+
+
+
+#about .right-head h2 {
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+    position: relative;
+}
+
+#about .right-head h2::after {
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 1px;
+    background: #D9D9D9;
+    top: 50%;
+    left: 130px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+#about .item img {
+    width: 100%;
+}
+
+#about .item {
+    display: flex;
+    padding-top: 10px;
+}
+
+#about .img {
+    width: 15%;
+    padding-top: 10px;
+}
+
+#about .item .text {
+    padding-left: 20px;
+}
+
+#about .item h2 {
+    font-family: 'Roboto', serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #444444;
+}
+
+#about .item h3 {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 22px;
+}
+
+/* ====================== About End ================================ */
+
+/* ====================== Footer Start ================================ */
+footer {
+    background: #373737;
+    padding: 50PX 0;
+}
+
+footer h2 {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F0F0F0;
+    margin-bottom: 30px;
+}
+
+footer p {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #CACACA;
+}
+
+
+
+footer .contact{
+    display: flex;
+}
+footer .contact .location{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #CACACA;
+}
+footer .contact h3{
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #CACACA;
+    padding-left: 20px;
+}
+
+
+/* ====================== Footer END ================================ */
+
+/* ====================== Credit Start ================================ */
+#credit{
+    background: #333333;
+    line-height: 80px;
+}
+#credit p{
+    text-align: center;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #CACACA;
+}
+/* ====================== Credit End ================================ */

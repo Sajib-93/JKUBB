@@ -1,0 +1,783 @@
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .navbar button .bar {
+        color: #fff !important;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .navbar-nav .nav-link {
+        padding-top: 20px;
+    }
+
+
+    #banner {
+       padding: 150px 0;    
+    }
+    #banner .text h1 {
+        font-size: 40px;
+    }
+    #banner .text h2 {
+        font-size: 30px;
+    }
+    #banner .text h3 {
+        font-size: 12px;
+    }
+
+
+    #service {
+        margin-top: 400px;
+    }
+    #service .service-head h2 {
+        font-size: 23px;
+    }
+    #service .service-head h3 {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    #service .item {
+        margin-top: 20px;
+    }
+
+
+
+
+
+    #insta {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+    #insta .insta-head h2 {
+        font-size: 13px;
+    }
+    #insta .button a {
+        padding: 10px 15px;
+        font-size: 13px;
+        margin-top: 0;
+        bottom: 20px;
+    }
+
+
+
+
+
+    /* #journal .item {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 170%;
+        margin-left: -61px;
+    } */
+    #journal .item .button .button2 {
+        text-align: left;
+    }
+    #journal .item .icon {
+        text-align: right;
+    }
+    #journal .journal-head h2 {
+        margin-bottom: -20px;
+    }
+
+
+
+
+    #about img {
+        margin-top: 10px;
+    }
+    #about .left-head h2 {
+        font-size: 14px;
+    }
+    #about .left-head h2::after {
+        width: 120px;
+        height: 1px;
+        left: 140px;
+    }
+    #about .left-head h3 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    #about .right-head{
+        margin-top: 20px;
+    }
+    #about .img {
+        width: 35%;
+    }
+
+
+
+
+    footer h2 {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    footer {
+        padding: 10PX 0;
+    }
+
+
+    #credit p {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .navbar button .bar {
+        color: #fff !important;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .navbar-nav .nav-link {
+        padding-top: 20px;
+    }
+
+
+    #banner {
+       padding: 150px 0;    
+    }
+    #banner .text h1 {
+        font-size: 40px;
+    }
+    #banner .text h2 {
+        font-size: 30px;
+    }
+    #banner .text h3 {
+        font-size: 12px;
+    }
+
+
+    #service {
+        margin-top: 400px;
+    }
+    #service .service-head h2 {
+        font-size: 23px;
+    }
+    #service .service-head h3 {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    #service .item {
+        margin-top: 20px;
+    }
+
+
+
+
+
+    #insta {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+    #insta .insta-head h2 {
+        font-size: 13px;
+    }
+    #insta .button a {
+        padding: 10px 15px;
+        font-size: 13px;
+        margin-top: 0;
+        bottom: 20px;
+    }
+
+
+
+
+
+    /* #journal .item {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 170%;
+        margin-left: -61px;
+    } */
+    #journal .item .button .button2 {
+        text-align: left;
+    }
+    #journal .item .icon {
+        text-align: right;
+    }
+    #journal .journal-head h2 {
+        margin-bottom: -20px;
+    }
+    #journal .journal-head h2::before {
+        right: 330px;
+    }
+    #journal .journal-head h2::after {
+        left: 330px;
+    }
+
+
+
+    #about img {
+        margin-top: 10px;
+    }
+    #about .left-head h2 {
+        font-size: 14px;
+    }
+    #about .left-head h2::after {
+        width: 120px;
+        height: 1px;
+        left: 140px;
+    }
+    #about .left-head h3 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    #about .right-head{
+        margin-top: 20px;
+    }
+    #about .img {
+        width: 35%;
+    }
+
+
+
+
+    footer h2 {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    footer {
+        padding: 10PX 0;
+    }
+
+
+    #credit p {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar button .bar {
+        color: #fff !important;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .navbar-nav .nav-link {
+        padding-top: 20px;
+    }
+
+
+    #banner {
+       padding: 150px 0;    
+    }
+    #banner .text h1 {
+        font-size: 40px;
+    }
+    #banner .text h2 {
+        font-size: 30px;
+    }
+    #banner .text h3 {
+        font-size: 12px;
+    }
+
+
+    #service {
+        margin-top: 400px;
+    }
+    #service .service-head h2 {
+        font-size: 23px;
+    }
+    #service .service-head h3 {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    #service .item {
+        margin-top: 20px;
+    }
+
+
+
+
+
+    #insta {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+    #insta .insta-head h2 {
+        font-size: 13px;
+    }
+    #insta .button a {
+        padding: 10px 15px;
+        font-size: 13px;
+        margin-top: 0;
+        bottom: 20px;
+    }
+    #insta .insta-head h2::before {
+        right: 490px;
+        display: none;
+    }
+    #insta .insta-head h2::after {
+        left: 490px;
+        display: none;
+    }
+
+
+
+
+    #journal .journal-head h2::after {
+        left: 420px !important;
+    }
+    #journal .journal-head h2::before {
+        right: 420px !important;
+    }
+    /* #journal .item {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 170%;
+        margin-left: -61px;
+    } */
+    #journal .item .button .button2 {
+        text-align: left;
+    }
+    #journal .item .icon {
+        text-align: right;
+    }
+    #journal .journal-head h2 {
+        margin-bottom: -20px;
+    }
+    #journal .journal-head h2::before {
+        right: 330px;
+        display: none;
+    }
+    #journal .journal-head h2::after {
+        display: none;
+        left: 330px;
+    }
+    #journal .item h2 {
+        font-size: 14px;
+    }
+    #journal .item h3 {
+        font-size: 11px;
+    }
+    #journal .item p {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    #journal .item .button a {
+        font-size: 9px;
+        text-align: left;
+    }
+    #journal .item p {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    #journal .item .button a {
+        margin-left: 10px;
+    }
+
+
+
+    #about img {
+        margin-top: 10px;
+    }
+    #about .left-head h2 {
+        font-size: 14px;
+    }
+    #about .left-head h2::after {
+        width: 120px;
+        height: 1px;
+        left: 140px;
+    }
+    #about .left-head h3 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    #about .right-head{
+        margin-top: 20px;
+    }
+    #about .img {
+        width: 15%;
+    }
+    #about .left-head h4 {
+        font-size: 15px;
+        line-height: 27px;
+        padding-top: 20px;
+    }
+
+
+
+
+
+    footer h2 {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    footer {
+        padding: 10PX 0;
+    }
+    footer .contact h3 {
+        padding-left: 10px;
+    }
+
+
+    #credit p {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .navbar button .bar {
+        color: #fff !important;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .navbar-nav .nav-link {
+        padding-top: 20px;
+    }
+
+
+    #banner {
+       padding: 150px 0;    
+    }
+    #banner .text h1 {
+        font-size: 40px;
+    }
+    #banner .text h2 {
+        font-size: 30px;
+    }
+    #banner .text h3 {
+        font-size: 12px;
+    }
+
+
+    #service {
+        margin-top: 400px;
+    }
+    #service .service-head h2 {
+        font-size: 23px;
+    }
+    #service .service-head h3 {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    #service .item {
+        margin-top: 20px;
+    }
+
+
+
+
+
+    #insta {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+    #insta .insta-head h2 {
+        font-size: 13px;
+    }
+    #insta .button a {
+        padding: 10px 15px;
+        font-size: 13px;
+        margin-top: 0;
+        bottom: 20px;
+    }
+    #insta .insta-head h2::before {
+        right: 490px;
+        display: none;
+    }
+    #insta .insta-head h2::after {
+        left: 490px;
+        display: none;
+    }
+
+
+
+
+    #journal .journal-head h2::after {
+        left: 420px !important;
+    }
+    #journal .journal-head h2::before {
+        right: 420px !important;
+    }
+    /* #journal .item {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 170%;
+        margin-left: -61px;
+    } */
+    #journal .item .button .button2 {
+        text-align: left;
+    }
+    #journal .item .icon {
+        text-align: right;
+    }
+    #journal .journal-head h2 {
+        margin-bottom: -20px;
+    }
+    #journal .journal-head h2::before {
+        right: 330px;
+        display: none;
+    }
+    #journal .journal-head h2::after {
+        display: none;
+        left: 330px;
+    }
+    #journal .item h2 {
+        font-size: 14px;
+    }
+    #journal .item h3 {
+        font-size: 11px;
+    }
+    #journal .item p {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    #journal .item .button a {
+        font-size: 9px;
+        text-align: left;
+    }
+    #journal .item p {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    #journal .item .button a {
+        margin-left: 10px;
+    }
+
+
+
+    #about img {
+        margin-top: 10px;
+    }
+    #about .left-head h2 {
+        font-size: 14px;
+    }
+    #about .left-head h2::after {
+        width: 120px;
+        height: 1px;
+        left: 140px;
+    }
+    #about .left-head h3 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    #about .right-head{
+        margin-top: 20px;
+    }
+    #about .img {
+        width: 15%;
+    }
+    #about .left-head h4 {
+        font-size: 15px;
+        line-height: 27px;
+        padding-top: 20px;
+    }
+
+
+
+
+
+    footer h2 {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    footer {
+        padding: 10PX 0;
+    }
+    footer .contact h3 {
+        padding-left: 10px;
+    }
+
+
+    #credit p {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    .navbar button .bar {
+        color: #fff !important;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .navbar-nav .nav-link {
+        padding-top: 20px;
+    }
+
+
+    #banner {
+       padding: 150px 0;    
+    }
+    #banner .text h1 {
+        font-size: 60px;
+    }
+    #banner .text h2 {
+        font-size: 40px;
+    }
+    #banner .text h3 {
+        font-size: 14px;
+    }
+
+
+    #service {
+        margin-top: 430px;
+    }
+    #service .service-head h2 {
+        font-size: 32px;
+    }
+    #service .service-head h3 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    #service .item {
+        margin-top: 20px;
+    }
+
+
+
+
+
+    #insta {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+    #insta .insta-head h2 {
+        font-size: 13px;
+    }
+    #insta .button a {
+        padding: 10px 15px;
+        font-size: 13px;
+        margin-top: 0;
+        bottom: 20px;
+    }
+    #insta .insta-head h2::before {
+        right: 490px;
+        display: none;
+    }
+    #insta .insta-head h2::after {
+        left: 490px;
+        display: none;
+    }
+
+
+
+
+    #journal .journal-head h2::after {
+        left: 420px !important;
+    }
+    #journal .journal-head h2::before {
+        right: 420px !important;
+    }
+    /* #journal .item {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 170%;
+        margin-left: -61px;
+    } */
+    #journal .item .button .button2 {
+        text-align: left;
+    }
+    #journal .item .icon {
+        text-align: right;
+        margin-left: 70px;
+    }
+    #journal .journal-head h2 {
+        margin-bottom: -20px;
+    }
+    #journal .journal-head h2::before {
+        right: 330px;
+        display: none;
+    }
+    #journal .journal-head h2::after {
+        display: none;
+        left: 330px;
+    }
+    #journal .item h2 {
+        font-size: 14px;
+    }
+    #journal .item h3 {
+        font-size: 11px;
+    }
+    #journal .item p {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    #journal .item .button a {
+        font-size: 9px;
+        text-align: left;
+    }
+    #journal .item p {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    #journal .item .button a {
+        margin-left: 10px;
+    }
+
+
+
+
+    
+    #about img {
+        width: 110%;
+        margin-top: 10px;
+    }
+    #about .left-head h2 {
+        font-size: 14px;
+    }
+    #about .left-head h2::after {
+        width: 120px;
+        height: 1px;
+        left: 140px;
+    }
+    #about .left-head h3 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    #about .right-head{
+        margin-top: 20px;
+    }
+    #about .img {
+        width: 15%;
+    }
+    #about .left-head h3 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    #about .left-head h4 {
+        line-height: 27px;
+    }
+
+
+
+
+    footer h2 {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    footer {
+        padding: 10PX 0;
+    }
+    footer .contact h3 {
+        padding-left: 10px;
+    }
+
+
+    #credit p {
+        font-size: 12px;
+    }
+}
